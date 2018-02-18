@@ -25,7 +25,7 @@ public class LoginSteps {
     public void he_enter_is_valid_username() throws Throwable {
         driver.findElement(By.name("userName")).sendKeys("mercury");
     }
-
+    //Adding a commeent with wrong spellings
     @When("^his valid password$")
     public void his_valid_password() throws Throwable {
         driver.findElement(By.name("password")).sendKeys("mercury");
